@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:shop_easy/routes/bottom_bar/cart.dart';
-import 'package:shop_easy/routes/bottom_bar/fav_store.dart';
-import 'package:shop_easy/routes/bottom_bar/home.dart';
-import 'package:shop_easy/routes/bottom_bar/profile.dart';
+import 'package:shop_easy/bottom_bar/profile.dart';
+
+import 'cart.dart';
+import 'fav_store.dart';
+import 'home.dart';
 
 class BottomBar extends StatefulWidget {
   const BottomBar({Key? key}) : super(key: key);

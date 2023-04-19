@@ -21,24 +21,24 @@ class _ConfirmEmailState extends State<ConfirmEmail> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
-                Text(
+                const Text(
                   textAlign: TextAlign.center,
                   "Confirm email",
-                  style: TextStyle(color: const Color(0xFF1E1E1E), fontFamily: "Poppins", fontWeight: FontWeight.w500, fontSize: 20),
+                  style: TextStyle(color: Color(0xFF1E1E1E), fontFamily: "Poppins", fontWeight: FontWeight.w500, fontSize: 20),
                 ),
-                SizedBox(height: 40),
+                const SizedBox(height: 40),
                 Image.asset("assets/gaji/mail.png", height: 240),
-                SizedBox(height: 50),
-                Text(
+                const SizedBox(height: 50),
+                const Text(
                   "A link has been sent to",
                   style: TextStyle(fontFamily: "Poppins", fontWeight: FontWeight.w400, fontSize: 13),
                 ),
-                SizedBox(height: 5),
-                Text(
+                const SizedBox(height: 5),
+                const Text(
                   "dolores.chambers@example.com",
                   style: TextStyle(fontFamily: "Poppins", fontWeight: FontWeight.w600, fontSize: 14),
                 ),
-                Text(
+                const Text(
                   "Click on the link to verify your email",
                   style: TextStyle(fontFamily: "Poppins", fontWeight: FontWeight.w400, fontSize: 13),
                 ),
@@ -62,15 +62,15 @@ class _ConfirmEmailState extends State<ConfirmEmail> {
                     ),
                   ),
                 ),
-                SizedBox(height: 15),
+                const SizedBox(height: 15),
                 Align(
                   alignment: Alignment.center,
                   child: TextButton(
                     onPressed: () {},
-                    child: Text(
+                    child: const Text(
                       textAlign: TextAlign.center,
                       "Resend email",
-                      style: TextStyle(color: const Color(0xFFFFA500), fontFamily: "Poppins", fontWeight: FontWeight.w400, fontSize: 15),
+                      style: TextStyle(color: Color(0xFFFFA500), fontFamily: "Poppins", fontWeight: FontWeight.w400, fontSize: 15),
                     ),
                   ),
                 ),
