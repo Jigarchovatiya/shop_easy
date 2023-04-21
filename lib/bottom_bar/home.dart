@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_easy/extention/extensions.dart';
 
 class Home extends StatefulWidget {
@@ -33,29 +32,12 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return SafeArea(
         child: Scaffold(
-      // appBar: AppBar(
-      //   elevation: 0,
-      //   foregroundColor: Colors.black,
-      //   backgroundColor: Colors.transparent,
-      //   actions: [
-      //     SvgPicture.asset("assets/icons/notification.svg"),
-      //     SizedBox(width: 10),
-      //   ],
-      // ),
-      // drawer: Drawer(),
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  const Icon(Icons.menu),
-                  SvgPicture.asset("assets/icons/notification.svg"),
-                ],
-              ),
               Image.asset(
                 "assets/gaji/background2.png",
               ),

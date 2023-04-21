@@ -25,6 +25,16 @@ class _BottomBarState extends State<BottomBar> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
+        appBar: AppBar(
+          elevation: 0,
+          foregroundColor: Colors.black,
+          backgroundColor: Colors.transparent,
+          actions: [
+            SvgPicture.asset("assets/icons/notification.svg"),
+            const SizedBox(width: 10),
+          ],
+        ),
+        drawer: const Drawer(),
         backgroundColor: const Color(0xFFFEFAF4),
         bottomNavigationBar: SizedBox(
           height: 70,

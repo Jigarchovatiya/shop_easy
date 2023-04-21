@@ -10,6 +10,24 @@ class FavStore extends StatefulWidget {
 class _FavStoreState extends State<FavStore> {
   @override
   Widget build(BuildContext context) {
-    return const SafeArea(child: Scaffold());
+    return SafeArea(
+        child: Scaffold(
+      body: SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsets.all(20),
+          child: Column(
+            children: const [
+              Align(
+                alignment: Alignment.centerLeft,
+                child: Text(
+                  "Favourite Stores",
+                  style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    ));
   }
 }
