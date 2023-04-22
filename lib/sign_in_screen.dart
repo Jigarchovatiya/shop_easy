@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:shop_easy/common/common_textfield.dart';
-import 'package:shop_easy/extention/extensions.dart';
+import 'package:shop_easy/extension/extensions.dart';
 import 'package:shop_easy/routes/routes_name.dart';
 
 class SignInScreen extends StatefulWidget {

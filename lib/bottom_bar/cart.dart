@@ -1,5 +1,7 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
-import 'package:shop_easy/extention/extensions.dart';
+import 'package:shop_easy/extension/extensions.dart';
 
 class Cart extends StatefulWidget {
   const Cart({Key? key}) : super(key: key);
@@ -34,6 +36,20 @@ class _CartState extends State<Cart> {
                       child: Image.asset(
                         "assets/gaji/face wash.png",
                         fit: BoxFit.cover,
+                      ),
+                    ),
+                    ClipRect(
+                      // <-- clips to the 200x200 [Container] below
+                      child: BackdropFilter(
+                        filter: ImageFilter.blur(
+                          sigmaX: 5.0,
+                          sigmaY: 5.0,
+                        ),
+                        child: Container(
+                          alignment: Alignment.center,
+                          width: 200.0,
+                          height: 200.0,
+                        ),
                       ),
                     ),
                   ],

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_easy/extention/extensions.dart';
+import 'package:shop_easy/extension/extensions.dart';
 
 class FavStore extends StatefulWidget {
   const FavStore({Key? key}) : super(key: key);

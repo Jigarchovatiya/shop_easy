@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shop_easy/routes/routes.dart';
-import 'package:shop_easy/routes/routes_name.dart';
+
+import 'bottom_bar/profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
-        bottomSheetTheme: BottomSheetThemeData(backgroundColor: Colors.transparent),
+        bottomSheetTheme: const BottomSheetThemeData(backgroundColor: Colors.transparent),
       ),
-      //home: const ConfirmEmail(),
-      routes: appRoutes,
-      initialRoute: RoutesName.splashScreen,
+      home: const Profile(),
+      // routes: appRoutes,
+      // initialRoute: RoutesName.splashScreen,
     );
   }
 }
