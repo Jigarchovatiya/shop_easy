@@ -66,7 +66,7 @@ class _StoreProfileState extends State<StoreProfile> {
                       shape: BoxShape.circle,
                       border: Border.all(color: const Color(0x33FFFFFF), width: 10),
                     ),
-                    child: Image.asset("assets/gaji/round_image2.png", height: 120, fit: BoxFit.cover),
+                    child: Image.asset("assets/gaji/profile1.png", height: 120, fit: BoxFit.cover),
                   ),
                 ),
                 const Text(
