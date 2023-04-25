@@ -22,9 +22,9 @@ class _SplashScreenState extends State<SplashScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Column(
+    return Scaffold(
+      body: SafeArea(
+        child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [Center(child: Image.asset("assets/gaji/shop easy.png", height: 30))],
         ),

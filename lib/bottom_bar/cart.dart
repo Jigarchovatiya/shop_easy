@@ -13,9 +13,9 @@ class Cart extends StatefulWidget {
 class _CartState extends State<Cart> {
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: SingleChildScrollView(
+    return Scaffold(
+      body: SafeArea(
+        child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(20),
             child: Column(
@@ -45,10 +45,12 @@ class _CartState extends State<Cart> {
                           sigmaX: 5.0,
                           sigmaY: 5.0,
                         ),
-                        child: Container(
-                          alignment: Alignment.center,
-                          width: 200.0,
-                          height: 200.0,
+                        child: Stack(
+                          children: [
+                            Container(
+                              height: 169,
+                            ),
+                          ],
                         ),
                       ),
                     ),

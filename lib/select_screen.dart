@@ -29,9 +29,9 @@ class _SelectScreenState extends State<SelectScreen> {
   ];
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: SingleChildScrollView(
+    return Scaffold(
+      body: SafeArea(
+        child: SingleChildScrollView(
           child: Column(
             children: [
               // Container(
@@ -207,22 +207,22 @@ class _SelectScreenState extends State<SelectScreen> {
             ],
           ),
         ),
-        bottomSheet: SizedBox(
-          height: 120,
-          child: Center(
-            child: InkWell(
-              onTap: () {},
-              child: Container(
-                padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 130),
-                decoration: BoxDecoration(
-                  color: const Color(0xFFFFA500),
-                  borderRadius: BorderRadius.circular(5),
-                ),
-                child: const Text(
-                  textAlign: TextAlign.center,
-                  "Go to shop",
-                  style: TextStyle(color: Colors.white, fontFamily: "Poppins", fontWeight: FontWeight.w600, fontSize: 15),
-                ),
+      ),
+      bottomSheet: SizedBox(
+        height: 120,
+        child: Center(
+          child: InkWell(
+            onTap: () {},
+            child: Container(
+              padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 130),
+              decoration: BoxDecoration(
+                color: const Color(0xFFFFA500),
+                borderRadius: BorderRadius.circular(5),
+              ),
+              child: const Text(
+                textAlign: TextAlign.center,
+                "Go to shop",
+                style: TextStyle(color: Colors.white, fontFamily: "Poppins", fontWeight: FontWeight.w600, fontSize: 15),
               ),
             ),
           ),

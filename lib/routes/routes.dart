@@ -5,6 +5,7 @@ import 'package:shop_easy/confirm_email.dart';
 import 'package:shop_easy/empty_cart.dart';
 import 'package:shop_easy/routes/routes_name.dart';
 import 'package:shop_easy/search_error.dart';
+import 'package:shop_easy/section.dart';
 import 'package:shop_easy/select_screen.dart';
 import 'package:shop_easy/sign_in_screen.dart';
 import 'package:shop_easy/sign_up_screen.dart';
@@ -33,4 +34,5 @@ Map<String, WidgetBuilder> appRoutes = {
   RoutesName.cart: (context) => const Cart(),
   RoutesName.profile: (context) => const Profile(),
   RoutesName.bottomBar: (context) => const BottomBar(),
+  RoutesName.section: (context) => const Section(),
 };

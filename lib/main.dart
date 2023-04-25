@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_easy/section.dart';
+import 'package:shop_easy/bottom_bar/profile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blueGrey,
         bottomSheetTheme: const BottomSheetThemeData(backgroundColor: Colors.transparent),
       ),
-      home: const Section(),
+      home: const Profile(),
       // routes: appRoutes,
       // initialRoute: RoutesName.splashScreen,
     );

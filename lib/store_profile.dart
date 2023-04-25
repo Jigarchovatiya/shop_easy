@@ -31,29 +31,29 @@ class _StoreProfileState extends State<StoreProfile> {
   ];
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        appBar: AppBar(
-          elevation: 0,
-          backgroundColor: Colors.transparent,
-          actions: const [
-            Padding(
-              padding: EdgeInsets.only(right: 20),
-              child: Icon(
-                Icons.notifications_off_outlined,
-                size: 24,
-                color: Colors.black,
-              ),
-            )
-          ],
-          leading: BackButton(
-            color: Colors.black,
-            onPressed: () {
-              debugPrint(" Back ");
-            },
-          ),
+    return Scaffold(
+      appBar: AppBar(
+        elevation: 0,
+        backgroundColor: Colors.transparent,
+        actions: const [
+          Padding(
+            padding: EdgeInsets.only(right: 20),
+            child: Icon(
+              Icons.notifications_off_outlined,
+              size: 24,
+              color: Colors.black,
+            ),
+          )
+        ],
+        leading: BackButton(
+          color: Colors.black,
+          onPressed: () {
+            debugPrint(" Back ");
+          },
         ),
-        body: SingleChildScrollView(
+      ),
+      body: SafeArea(
+        child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(20),
             child: Column(

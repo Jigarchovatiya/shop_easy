@@ -3,6 +3,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:shop_easy/extension/extensions.dart';
 import 'package:shop_easy/model/profile_model.dart';
 
+import '../routes/routes_name.dart';
+
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);
 
@@ -15,9 +17,9 @@ class _ProfileState extends State<Profile> {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: SingleChildScrollView(
+    return Scaffold(
+      body: SafeArea(
+        child: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(20),
             child: Column(
@@ -62,23 +64,27 @@ class _ProfileState extends State<Profile> {
                   height: 40,
                 ),
                 ListView.separated(
-                    scrollDirection: Axis.vertical,
-                    shrinkWrap: true,
-                    physics: const NeverScrollableScrollPhysics(),
-                    itemBuilder: (context, index) => Column(
-                          children: [
-                            ListTile(
-                              title: Text(
-                                ProfileModalList[index].title.toString(),
-                              ),
-                              leading: SvgPicture.asset(
-                                ProfileModalList[index].image.toString(),
-                              ),
-                            )
-                          ],
+                  scrollDirection: Axis.vertical,
+                  shrinkWrap: true,
+                  physics: const NeverScrollableScrollPhysics(),
+                  itemBuilder: (context, index) => Column(
+                    children: [
+                      ListTile(
+                        onTap: () {
+                          Navigator.pushNamed(context, RoutesName.section);
+                        },
+                        title: Text(
+                          ProfileModalList[index].title ?? "",
                         ),
-                    separatorBuilder: (context, index) => 10.0.addHSpace(),
-                    itemCount: ProfileModalList.length),
+                        leading: SvgPicture.asset(
+                          ProfileModalList[index].image ?? "",
+                        ),
+                      )
+                    ],
+                  ),
+                  separatorBuilder: (context, index) => 10.0.addHSpace(),
+                  itemCount: ProfileModalList.length,
+                ),
               ],
             ),
           ),
