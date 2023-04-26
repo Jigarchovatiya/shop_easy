@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:shop_easy/common/common_button.dart';
 import 'package:shop_easy/extension/extensions.dart';
 
 class Cart extends StatefulWidget {
@@ -69,33 +70,11 @@ class _CartState extends State<Cart> {
                   ],
                 ),
                 const SizedBox(height: 20),
-                InkWell(
+                AppButton(
                   onTap: () {
                     setState(() {});
                   },
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: const Color(0xFFFFA500),
-                      border: Border.all(
-                        width: 1,
-                        color: const Color(0xFFFFE4B3),
-                      ),
-                      borderRadius: BorderRadius.circular(5),
-                    ),
-                    width: 350,
-                    height: 50,
-                    child: const Center(
-                      child: Text(
-                        "Checkout",
-                        style: TextStyle(
-                          color: Colors.white,
-                          fontFamily: "Poppins",
-                          fontSize: 15,
-                          fontWeight: FontWeight.w400,
-                        ),
-                      ),
-                    ),
-                  ),
+                  title: "Checkout",
                 ),
                 const SizedBox(height: 20),
               ],

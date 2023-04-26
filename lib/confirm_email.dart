@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_easy/common/common_button.dart';
 import 'package:shop_easy/routes/routes_name.dart';
 
 class ConfirmEmail extends StatefulWidget {
@@ -44,22 +45,11 @@ class _ConfirmEmailState extends State<ConfirmEmail> {
                   ),
                   const SizedBox(height: 10),
                   Center(
-                    child: InkWell(
+                    child: AppButton(
                       onTap: () {
                         Navigator.pushNamed(context, RoutesName.bottomBar);
                       },
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(vertical: 15, horizontal: 140),
-                        decoration: BoxDecoration(
-                          color: const Color(0xFFFFA500),
-                          borderRadius: BorderRadius.circular(5),
-                        ),
-                        child: const Text(
-                          textAlign: TextAlign.center,
-                          "Continue",
-                          style: TextStyle(color: Colors.white, fontFamily: "Poppins", fontWeight: FontWeight.w600, fontSize: 15),
-                        ),
-                      ),
+                      title: "Continue",
                     ),
                   ),
                   const SizedBox(height: 15),

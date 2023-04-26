@@ -1,5 +1,6 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:shop_easy/common/common_button.dart';
 import 'package:shop_easy/common/common_textfield.dart';
 import 'package:shop_easy/extension/extensions.dart';
 import 'package:shop_easy/routes/routes_name.dart';
@@ -64,7 +65,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         autofocus: false,
                       ),
                       const SizedBox(height: 20),
-                      InkWell(
+                      AppButton(
                         onTap: () {
                           if (formKey.currentState!.validate()) {
                             formKey.currentState!.validate();
@@ -80,29 +81,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             formKey.currentState!.save();
                           }
                         },
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: const Color(0xFFFFA500),
-                            border: Border.all(
-                              width: 1,
-                              color: const Color(0xFFFFE4B3),
-                            ),
-                            borderRadius: BorderRadius.circular(5),
-                          ),
-                          width: 350,
-                          height: 50,
-                          child: const Center(
-                            child: Text(
-                              "Sign up",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontFamily: "Poppins",
-                                fontSize: 15,
-                                fontWeight: FontWeight.w400,
-                              ),
-                            ),
-                          ),
-                        ),
+                        title: "Sign up",
                       ),
                       const SizedBox(height: 20),
                       Container(
