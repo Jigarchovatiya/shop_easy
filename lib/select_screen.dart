@@ -65,11 +65,11 @@ class _SelectScreenState extends State<SelectScreen> {
                   ),
                   child: Column(
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.all(10),
+                      const Padding(
+                        padding: EdgeInsets.all(10),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text(
                               "Select Size",
                               style: TextStyle(
@@ -134,11 +134,11 @@ class _SelectScreenState extends State<SelectScreen> {
                   ),
                   child: Column(
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.all(10),
+                      const Padding(
+                        padding: EdgeInsets.all(10),
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text(
                               "Select Color",
                               style: TextStyle(

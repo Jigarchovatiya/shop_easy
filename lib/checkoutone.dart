@@ -25,11 +25,11 @@ class _CheckoutScreenOneState extends State<CheckoutScreenOne> {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 80),
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 80),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
-                  children: const [
+                  children: [
                     CircleAvatar(
                       radius: 13,
                       backgroundColor: Color(0xFFFFA500),
@@ -70,10 +70,10 @@ class _CheckoutScreenOneState extends State<CheckoutScreenOne> {
                       "assets/gaji/shoes.png",
                       height: 100,
                     ),
-                    Column(
+                    const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           "Lorem ipsum hobel\noligt nesm dejun\nLadies Boot",
                           style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, fontFamily: "Poppins"),
@@ -112,10 +112,10 @@ class _CheckoutScreenOneState extends State<CheckoutScreenOne> {
                       "assets/gaji/sunscreen.png",
                       height: 100,
                     ),
-                    Column(
+                    const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       crossAxisAlignment: CrossAxisAlignment.start,
-                      children: const [
+                      children: [
                         Text(
                           "Lorem ipsum hobel\noligt nesm dejun\nLadies Boot",
                           style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, fontFamily: "Poppins"),
@@ -146,12 +146,12 @@ class _CheckoutScreenOneState extends State<CheckoutScreenOne> {
                     BoxShadow(color: Color(0x1A7C7C7C), offset: Offset(0, 1), blurRadius: 20, spreadRadius: 0, blurStyle: BlurStyle.outer),
                   ],
                 ),
-                child: Column(
+                child: const Column(
                   children: [
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           "Subtotal",
                           style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, fontFamily: "Poppins"),
@@ -162,11 +162,11 @@ class _CheckoutScreenOneState extends State<CheckoutScreenOne> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 18),
+                    SizedBox(height: 18),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           "Shipping",
                           style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, fontFamily: "Poppins"),
@@ -177,16 +177,16 @@ class _CheckoutScreenOneState extends State<CheckoutScreenOne> {
                         ),
                       ],
                     ),
-                    const SizedBox(height: 18),
-                    const Divider(
+                    SizedBox(height: 18),
+                    Divider(
                       color: Color(0xFFD3D3D3),
                       thickness: 1,
                     ),
-                    const SizedBox(height: 18),
+                    SizedBox(height: 18),
                     Row(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: const [
+                      children: [
                         Text(
                           "Total",
                           style: TextStyle(fontSize: 14, fontWeight: FontWeight.w400, fontFamily: "Poppins"),

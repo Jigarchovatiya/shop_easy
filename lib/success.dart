@@ -46,15 +46,15 @@ class _SuccessState extends State<Success> {
                     ),
                   ),
                 ),
-                SizedBox(height: 20),
+                const SizedBox(height: 20),
                 Align(
                   alignment: Alignment.center,
                   child: TextButton(
                     onPressed: () {},
-                    child: Text(
+                    child: const Text(
                       textAlign: TextAlign.center,
                       "Go back home",
-                      style: TextStyle(color: const Color(0xFFFFA500), fontFamily: "Poppins", fontWeight: FontWeight.w400, fontSize: 15),
+                      style: TextStyle(color: Color(0xFFFFA500), fontFamily: "Poppins", fontWeight: FontWeight.w400, fontSize: 15),
                     ),
                   ),
                 ),

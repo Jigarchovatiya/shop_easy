@@ -125,9 +125,9 @@ class _StoreProfileState extends State<StoreProfile> {
                                 border: Border.all(width: 0.5),
                                 borderRadius: BorderRadius.circular(6),
                               ),
-                              child: Row(
+                              child: const Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                children: const [
+                                children: [
                                   Text(
                                     textAlign: TextAlign.left,
                                     "See more",
@@ -182,14 +182,14 @@ class _StoreProfileState extends State<StoreProfile> {
                                       ),
                                     ],
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(5.0),
+                                  const Padding(
+                                    padding: EdgeInsets.all(5.0),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Row(
                                           crossAxisAlignment: CrossAxisAlignment.center,
-                                          children: const [
+                                          children: [
                                             Icon(
                                               Icons.star_rate_sharp,
                                               size: 20,
@@ -228,8 +228,8 @@ class _StoreProfileState extends State<StoreProfile> {
                                             ),
                                           ],
                                         ),
-                                        const SizedBox(height: 10),
-                                        const Text(
+                                        SizedBox(height: 10),
+                                        Text(
                                           "Product Name",
                                           style: TextStyle(
                                             color: Color(0xFF1E1E1E),
@@ -238,9 +238,9 @@ class _StoreProfileState extends State<StoreProfile> {
                                             fontSize: 18,
                                           ),
                                         ),
-                                        const SizedBox(height: 10),
+                                        SizedBox(height: 10),
                                         Row(
-                                          children: const [
+                                          children: [
                                             Text(
                                               "\$841.00",
                                               style: TextStyle(
@@ -298,9 +298,9 @@ class _StoreProfileState extends State<StoreProfile> {
                                 border: Border.all(width: 0.5),
                                 borderRadius: BorderRadius.circular(6),
                               ),
-                              child: Row(
+                              child: const Row(
                                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                                children: const [
+                                children: [
                                   Text(
                                     textAlign: TextAlign.left,
                                     "See more",
@@ -355,14 +355,14 @@ class _StoreProfileState extends State<StoreProfile> {
                                       ),
                                     ],
                                   ),
-                                  Padding(
-                                    padding: const EdgeInsets.all(5.0),
+                                  const Padding(
+                                    padding: EdgeInsets.all(5.0),
                                     child: Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
                                         Row(
                                           crossAxisAlignment: CrossAxisAlignment.center,
-                                          children: const [
+                                          children: [
                                             Icon(
                                               Icons.star_rate_sharp,
                                               size: 20,
@@ -401,8 +401,8 @@ class _StoreProfileState extends State<StoreProfile> {
                                             ),
                                           ],
                                         ),
-                                        const SizedBox(height: 10),
-                                        const Text(
+                                        SizedBox(height: 10),
+                                        Text(
                                           "Product Name",
                                           style: TextStyle(
                                             color: Color(0xFF1E1E1E),
@@ -411,9 +411,9 @@ class _StoreProfileState extends State<StoreProfile> {
                                             fontSize: 18,
                                           ),
                                         ),
-                                        const SizedBox(height: 10),
+                                        SizedBox(height: 10),
                                         Row(
-                                          children: const [
+                                          children: [
                                             Text(
                                               "\$841.00",
                                               style: TextStyle(

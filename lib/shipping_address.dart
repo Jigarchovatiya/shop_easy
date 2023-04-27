@@ -43,21 +43,21 @@ class _ShippingAddressState extends State<ShippingAddress> {
                       ),
                     ],
                   ),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 20),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text("Name", style: TextStyle(fontSize: 13, color: Color(0xFFA1A1A1), fontWeight: FontWeight.w400)),
                             Text("dolores chambers", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
                           ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text("Phone Number", style: TextStyle(fontSize: 13, color: Color(0xFFA1A1A1), fontWeight: FontWeight.w400)),
                             Text("+234 255 5594 546", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
                           ],
@@ -89,42 +89,42 @@ class _ShippingAddressState extends State<ShippingAddress> {
                       ),
                     ],
                   ),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: const Padding(
+                    padding: EdgeInsets.symmetric(horizontal: 20),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text("Country", style: TextStyle(fontSize: 13, color: Color(0xFFA1A1A1), fontWeight: FontWeight.w400)),
                             Text("Nigeria", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
                           ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text("State", style: TextStyle(fontSize: 13, color: Color(0xFFA1A1A1), fontWeight: FontWeight.w400)),
                             Text("Ogun", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
                           ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text("LGA", style: TextStyle(fontSize: 13, color: Color(0xFFA1A1A1), fontWeight: FontWeight.w400)),
                             Text("Egbado South", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
                           ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text("Street Name", style: TextStyle(fontSize: 13, color: Color(0xFFA1A1A1), fontWeight: FontWeight.w400)),
                             Text("Lorem Ipsum", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
                           ],
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: const [
+                          children: [
                             Text("Zip/Postal Code", style: TextStyle(fontSize: 13, color: Color(0xFFA1A1A1), fontWeight: FontWeight.w400)),
                             Text("100001", style: TextStyle(fontSize: 14, fontWeight: FontWeight.w500)),
                           ],
