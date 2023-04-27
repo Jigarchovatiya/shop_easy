@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:shop_easy/common/app_appbar.dart';
-import 'package:shop_easy/common/common_button.dart';
-import 'package:shop_easy/common/common_textfield.dart';
-import 'package:shop_easy/extension/extensions.dart';
+import 'package:shop_easy/res/common/app_appbar.dart';
+import 'package:shop_easy/res/common/common_button.dart';
+import 'package:shop_easy/res/common/common_textfield.dart';
+import 'package:shop_easy/res/extension/extensions.dart';
 
 class EditShippingAddress extends StatefulWidget {
   const EditShippingAddress({Key? key}) : super(key: key);

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'common/app_appbar.dart';
+import 'package:shop_easy/res/common/app_appbar.dart';
 
 class Section extends StatefulWidget {
   const Section({Key? key}) : super(key: key);

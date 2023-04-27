@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:shop_easy/common/common_button.dart';
-import 'package:shop_easy/routes/routes_name.dart';
+import 'package:shop_easy/res/common/common_button.dart';
+import 'package:shop_easy/res/routes/routes_name.dart';
 
 class ConfirmEmail extends StatefulWidget {
   const ConfirmEmail({Key? key}) : super(key: key);

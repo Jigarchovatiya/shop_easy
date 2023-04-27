@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:shop_easy/extension/extensions.dart';
-
-import 'common/common_button.dart';
+import 'package:shop_easy/res/common/common_button.dart';
+import 'package:shop_easy/res/extension/extensions.dart';
 
 class ShippingAddress extends StatefulWidget {
   const ShippingAddress({Key? key}) : super(key: key);

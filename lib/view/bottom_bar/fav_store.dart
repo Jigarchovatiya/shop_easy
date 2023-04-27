@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_easy/extension/extensions.dart';
+import 'package:shop_easy/res/extension/extensions.dart';
 
 class FavStore extends StatefulWidget {
   const FavStore({Key? key}) : super(key: key);
@@ -125,14 +125,14 @@ class _FavStoreState extends State<FavStore> {
                                 ),
                               ],
                             ),
-                            Padding(
-                              padding: const EdgeInsets.all(5.0),
+                            const Padding(
+                              padding: EdgeInsets.all(5.0),
                               child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Row(
                                     crossAxisAlignment: CrossAxisAlignment.center,
-                                    children: const [
+                                    children: [
                                       Icon(
                                         Icons.star_rate_sharp,
                                         size: 20,
@@ -171,8 +171,8 @@ class _FavStoreState extends State<FavStore> {
                                       ),
                                     ],
                                   ),
-                                  const SizedBox(height: 10),
-                                  const Text(
+                                  SizedBox(height: 10),
+                                  Text(
                                     "Product Name",
                                     style: TextStyle(
                                       color: Color(0xFF1E1E1E),
@@ -181,9 +181,9 @@ class _FavStoreState extends State<FavStore> {
                                       fontSize: 18,
                                     ),
                                   ),
-                                  const SizedBox(height: 10),
+                                  SizedBox(height: 10),
                                   Row(
-                                    children: const [
+                                    children: [
                                       Text(
                                         "\$841.00",
                                         style: TextStyle(

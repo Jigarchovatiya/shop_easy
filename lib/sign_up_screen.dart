@@ -1,9 +1,9 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:shop_easy/common/common_button.dart';
-import 'package:shop_easy/common/common_textfield.dart';
-import 'package:shop_easy/extension/extensions.dart';
-import 'package:shop_easy/routes/routes_name.dart';
+import 'package:shop_easy/res/common/common_button.dart';
+import 'package:shop_easy/res/common/common_textfield.dart';
+import 'package:shop_easy/res/extension/extensions.dart';
+import 'package:shop_easy/res/routes/routes_name.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({Key? key}) : super(key: key);
