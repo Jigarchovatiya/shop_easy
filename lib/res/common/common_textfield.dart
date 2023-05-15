@@ -19,6 +19,7 @@ class CommonTextField extends StatelessWidget {
   final InputBorder? errorBorder;
   final int maxLines;
   final bool autofocus;
+  final Widget? suffixIcon;
 
   const CommonTextField({
     Key? key,
@@ -39,6 +40,7 @@ class CommonTextField extends StatelessWidget {
     this.errorBorder,
     required this.maxLines,
     required this.autofocus,
+    this.suffixIcon,
   }) : super(key: key);
 
   @override
@@ -70,6 +72,7 @@ class CommonTextField extends StatelessWidget {
         isDense: true,
         hintText: hintText,
         labelText: labelText,
+        suffixIcon: suffixIcon,
         hintStyle: const TextStyle(
           color: Color(0xFF8C8A87),
         ),

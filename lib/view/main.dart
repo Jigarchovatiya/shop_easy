@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'edit_shipping_address.dart';
+import 'history_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blueGrey,
         bottomSheetTheme: const BottomSheetThemeData(backgroundColor: Colors.transparent),
       ),
-      home: const EditShippingAddress(),
+      home: const HistoryScreen(),
       // routes: appRoutes,
       // initialRoute: RoutesName.splashScreen,
     );

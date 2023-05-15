@@ -48,9 +48,9 @@ class _ProfileState extends State<Profile> {
                     style: TextStyle(fontFamily: "poppins", fontSize: 14, fontWeight: FontWeight.w400),
                   ),
                 ),
-                Row(
+                const Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: const [
+                  children: [
                     Text(
                       textAlign: TextAlign.left,
                       "dolores.chambers@example.com",
