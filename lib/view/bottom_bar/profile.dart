@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:shop_easy/extension/extensions.dart';
-import 'package:shop_easy/model/profile_model.dart';
+import 'package:shop_easy/res/extension/extensions.dart';
 
-import '../routes/routes_name.dart';
+import '../../data/model/profile_model.dart';
+import '../../res/routes/routes_name.dart';
 
 class Profile extends StatefulWidget {
   const Profile({Key? key}) : super(key: key);

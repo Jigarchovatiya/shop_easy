@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_easy/extension/extensions.dart';
+import 'package:shop_easy/res/extension/extensions.dart';
 
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
@@ -16,7 +16,7 @@ class _HomeState extends State<Home> {
   ];
   List product = [
     "assets/gaji/camera.png",
-    "assets/gaji/lipistic.png",
+    "assets/gaji/lipstick.png",
     "assets/gaji/cream.png",
   ];
   List profileList = [

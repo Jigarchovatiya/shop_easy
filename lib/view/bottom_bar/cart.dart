@@ -1,8 +1,9 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:shop_easy/common/common_button.dart';
-import 'package:shop_easy/extension/extensions.dart';
+import 'package:shop_easy/res/extension/extensions.dart';
+
+import '../../res/common/common_button.dart';
 
 class Cart extends StatefulWidget {
   const Cart({Key? key}) : super(key: key);

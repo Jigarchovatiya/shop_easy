@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:shop_easy/bottom_bar/profile.dart';
+import 'package:shop_easy/view/bottom_bar/profile.dart';
 
 import 'cart.dart';
 import 'fav_store.dart';
